@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+// import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate Software developer with a knack for crafting robust and scalable web applications. With overall 2 years of hands-on experience, I have honed my skills in front-end technologies like React.js, as well as application development technologies like Flutter. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 

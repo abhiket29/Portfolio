@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Arlogo from "../assets/ARlogo.jpg";
 
