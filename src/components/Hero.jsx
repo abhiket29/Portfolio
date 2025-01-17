@@ -1,6 +1,5 @@
-import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profilepic from "../assets/kevinRushProfile.png";
+import profilepic from "../assets/profile.jpg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -22,7 +21,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl"
             >
               Abhiket Roy
             </motion.h1>
@@ -52,6 +51,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={profilepic}
               alt=""
+              className="rounded-xl"
             />
           </div>
         </div>

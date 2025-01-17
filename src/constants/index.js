@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate Software developer with a knack for crafting robust and scalable web applications. With overall 2 years of hands-on experience, I have honed my skills in front-end technologies like React.js, as well as application development technologies like Flutter. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -21,14 +21,14 @@ export const EXPERIENCES = [
     year: "Oct 2023 - April 2024",
     role: "QA Engineer",
     company: "TAAB Solutions, Gurugram",
-    description: `Designed and developed user interfaces for web applications React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    description: `Performed end-to-end manual testing, including functional, regression, and system testing, ensuring software met quality standards.`,
     technologies: ["Jira", "JMeter", "Manual Testing"],
   },
   {
     year: "Dec 2022 - Sep 2023",
     role: "QA Engineer",
     company: "RV Online Gaming Pvt. Ltd, Gurugram",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    description: `Executed performance tests using JMeter or LoadRunner to identify bottlenecks and improve system scalability.Worked closely with cross-functional teams, including developers and product managers to ensure alignment on requirements and quality standards.`,
     technologies: ["Jira", "JMeter", "Manual Testing"],
   },
 ];
@@ -55,13 +55,13 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "TailwindCSS", "JavaScript", "React"],
   },
-  // {
-  //   title: "Blogging Platform",
-  //   image: project4,
-  //   description:
-  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  // },
+  {
+    title: "Pokémon Website",
+    image: project4,
+    description:
+      "Developed a responsive Pokémon-themed website showcasing Pokémon details, including search and filtering functionality.",
+    technologies: ["HTML", "CSS", "API Integration", "React"],
+  },
 ];
 
 export const CONTACT = {
