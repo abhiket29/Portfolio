@@ -41,7 +41,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TfiHtml5 className="text-7xl bg-black" />
+          <TfiHtml5 className="text-7xl" />
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
@@ -49,7 +49,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaCss3Alt className="text-7xl bg-black" />
+          <FaCss3Alt className="text-7xl" />
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
@@ -57,7 +57,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiJavascriptLine className="text-7xl bg-black" />
+          <RiJavascriptLine className="text-7xl" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
@@ -73,7 +73,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaFlutter className="text-7xl bg-black" />
+          <FaFlutter className="text-7xl" />
         </motion.div>
       </motion.div>
     </div>

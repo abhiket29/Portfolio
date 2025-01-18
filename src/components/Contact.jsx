@@ -14,7 +14,7 @@ const Contact = () => {
             transition={{ duration: 0.5 }}
             className="text-center text-3xl font-semibold mb-6"
           >
-            Get in Touch
+            Contact Me
           </motion.h1>
         </div>
 
@@ -62,7 +62,10 @@ const Contact = () => {
 
       {/* Footer Bottom */}
       <div className="mt-10 border-t border-neutral-700 pt-4 text-center text-sm">
+        <p>
+          Made with <span className="text-red-500 text-md">❤️</span> by Abhiket
         &copy; {new Date().getFullYear()} All rights reserved.
+        </p>
       </div>
     </footer>
   );
