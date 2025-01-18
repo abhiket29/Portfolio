@@ -49,7 +49,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
-    title: "Portfolio Website",
+    title: "Portfolio",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
@@ -65,7 +65,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Sector-18, Gurgaon, Haryana ",
+  address: "Gurgaon, Haryana ",
   phoneNo: "+917837331298 ",
   email: "abhiket29@gmail.com",
 };

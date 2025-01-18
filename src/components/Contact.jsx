@@ -5,7 +5,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 const Contact = () => {
   return (
     <footer className="text-neutral-200 py-10">
-      <div className="justify-between flex container mx-auto px-4">
+      <div className="flex justify-between container mx-auto px-4">
         {/* Header */}
         <div>
           <motion.h1
@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Info */}
-        <div className=" md:flex-row justify-evenly items-center gap-8">
+        <div className=" md:flex-row justify-evenly items-center">
           {/* Address */}
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -27,8 +27,8 @@ const Contact = () => {
             transition={{ duration: 1 }}
             className="flex items-center space-x-4"
           >
-            <FaMapMarkerAlt className="text-xl text-green-400" />
-            <p className="text-center text-sm">{CONTACT.address}</p>
+            <FaMapMarkerAlt className="text-sm text-green-400 mb-2" />
+            <p className="text-center text-sm mb-2">{CONTACT.address}</p>
           </motion.div>
 
           {/* Phone */}
@@ -38,8 +38,8 @@ const Contact = () => {
             transition={{ duration: 1 }}
             className="flex items-center space-x-4"
           >
-            <FaPhoneAlt className="text-xl text-blue-400" />
-            <p className="text-center text-sm">{CONTACT.phoneNo}</p>
+            <FaPhoneAlt className="text-sm text-blue-400 mb-2" />
+            <p className="text-center text-sm mb-2">{CONTACT.phoneNo}</p>
           </motion.div>
 
           {/* Email */}
@@ -49,7 +49,7 @@ const Contact = () => {
             transition={{ duration: 1 }}
             className="flex items-center space-x-4"
           >
-            <FaEnvelope className="text-xl text-red-400" />
+            <FaEnvelope className="text-sm text-red-400" />
             <a
               href={`mailto:${CONTACT.email}`}
               className="text-sm hover:underline"
