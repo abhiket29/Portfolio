@@ -1,4 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { GoDownload } from "react-icons/go";
 import Arlogo from "../assets/ARlogo.jpg";
 
 export const Navbar = () => {
@@ -9,6 +10,15 @@ export const Navbar = () => {
           <img className="mx-2 w-20 h-30 rounded-3xl" src={Arlogo} alt="logo" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+          <a
+            href="/Portfolio-main/public/Abhiket.FD.pdf"
+            download="Abhiket.FD.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Download Resume"
+          >
+            <GoDownload />
+          </a>
           <a
             href="http://www.linkedin.com/in/abhiket-kumar-28964b238"
             target="_blank"
