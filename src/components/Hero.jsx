@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilepic from "../assets/profile1.jpg";
 import { motion } from "framer-motion";
+// import { Link } from "react-router-dom";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -37,13 +38,18 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter lg:text-xl"
             >
               {HERO_CONTENT}
             </motion.p>
           </div>
+          {/* <Link to="/contact"> */}
+            <button className="h-12 w-40 rounded-lg bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500">
+              Let&apos;s Connect
+            </button>
+          {/* </Link> */}
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-8 mt-9">
           <div className="flex justify-center">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
