@@ -3,9 +3,6 @@ import profilepic from "../assets/profile1.jpg";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import MarqueeText from "./Marquee";
-import Chatbot from "./Chatbot";
-
-// import { Link } from "react-router-dom";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -48,14 +45,11 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
           </div>
-          <Link to="/contact">
+          {/* <Link to="/contact">
             <button className="font-bold h-12 w-40 rounded-lg bg-gradient-to-r from-pink-500 via-slate-700 to-purple-700">
               Let&apos;s Connect
             </button>
-          </Link>
-        </div>
-        <div>
-          <Chatbot/>
+          </Link> */}
         </div>
         <div className="w-full lg:w-1/2 lg:p-8 mt-9">
           <div className="flex justify-center">

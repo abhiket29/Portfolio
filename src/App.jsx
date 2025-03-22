@@ -9,6 +9,7 @@ import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import Contact from "./components/Footer";
 import ContactForm from "./components/ContactForm";
+import Chatbot from "./components/Chatbot";
 
 export const App = () => {
   return (
@@ -38,7 +39,7 @@ export const App = () => {
               element={
                 <>
                   <Hero />
-                  <About />
+                  <About id="#nav-about" />
                   <Technologies />
                   <Experiences />
                   <Projects />
@@ -53,6 +54,9 @@ export const App = () => {
         </div>
         {/* <Contact/> */}
       </Router>
+      <div>
+        <Chatbot />
+      </div>
     </div>
   );
 };
