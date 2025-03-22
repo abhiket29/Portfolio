@@ -7,3 +7,20 @@
 :root{
   font-family: "Inter", sans-serif;
 }
+
+/* @layer utilities {
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-90%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 80s linear infinite;
+  }
+} */
+
+

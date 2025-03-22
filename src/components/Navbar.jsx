@@ -1,16 +1,23 @@
+import { Link } from "react-router-dom";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { GoDownload } from "react-icons/go";
 import Arlogo from "../assets/ARlogo.jpg";
+// import { GoDownload } from "react-icons/go";
 
 export const Navbar = () => {
   return (
     <div>
-      <nav className="mb-20 flex items-center justify-between py-6">
+      <nav className="mb-8 md:mb-15 flex items-center justify-around md:justify-between pt-10 md:pt-10">
         <div className="flex flex-shrink-0 items-center">
-          <img className="mx-2 w-20 h-30 rounded-3xl" src={Arlogo} alt="logo" />
+          <Link to="/">
+            <img
+              className="mx-2 w-20 h-30 rounded-3xl cursor-pointer"
+              src={Arlogo}
+              alt="logo"
+            />
+          </Link>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-          <a
+          {/* <a
             href="/Portfolio-main/public/Abhiket.FD.pdf"
             download="Abhiket.FD.pdf"
             target="_blank"
@@ -18,7 +25,7 @@ export const Navbar = () => {
             aria-label="Download Resume"
           >
             <GoDownload />
-          </a>
+          </a> */}
           <a
             href="http://www.linkedin.com/in/abhiket-kumar-28964b238"
             target="_blank"

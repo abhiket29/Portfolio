@@ -1,6 +1,10 @@
 import { HERO_CONTENT } from "../constants";
 import profilepic from "../assets/profile1.jpg";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import MarqueeText from "./Marquee";
+import Chatbot from "./Chatbot";
+
 // import { Link } from "react-router-dom";
 
 const container = (delay) => ({
@@ -14,15 +18,16 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35 px-8 md:px-[8rem]">
+      <MarqueeText/>
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col lg:mt-8 items-center lg:items-start">
             <motion.h1
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl"
+              className="py-10 lg:pb-10 text-6xl font-thin tracking-tight lg:mt-4 lg:text-7xl"
             >
               Abhiket Roy
             </motion.h1>
@@ -43,11 +48,14 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
           </div>
-          {/* <Link to="/contact"> */}
-            <button className="h-12 w-40 rounded-lg bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500">
+          <Link to="/contact">
+            <button className="font-bold h-12 w-40 rounded-lg bg-gradient-to-r from-pink-500 via-slate-700 to-purple-700">
               Let&apos;s Connect
             </button>
-          {/* </Link> */}
+          </Link>
+        </div>
+        <div>
+          <Chatbot/>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8 mt-9">
           <div className="flex justify-center">
