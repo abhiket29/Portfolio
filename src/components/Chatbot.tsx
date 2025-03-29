@@ -85,7 +85,74 @@ export default function Chatbot() {
         },
       ],
     },
-    // ... (rest of the initialOptions remain the same as in the previous implementation)
+    {
+      label: "Services & Expertise",
+      response:
+        "Abhiket specializes in modern web development, building fast, scalable, and user-friendly applications.",
+      nextOptions: [
+        {
+          label: "What services do you offer?",
+          response:
+            "Abhiket offers services in: Web Development (React.js, Next.js, Tailwind CSS).",
+        },
+        {
+          label: "Do you build e-commerce websites?",
+          response:
+            "Yes! Abhiket has experience building fast, scalable e-commerce platforms using Next.js, and Firebase for authentication. Let me know your project details at abhiket29@gmail.com",
+        },
+      ],
+    },
+    {
+      label: "Pricing & Availability",
+      response:
+        "Abhiket offers services in: Web Development (React.js, Next.js, Tailwind CSS).",
+      nextOptions: [
+        {
+          label: "How much do you charge for a project?",
+          response:
+            "Pricing depends on the project scope, features, and timeline. Could you share more details about what you need? I can provide an estimated quote!",
+        },
+        {
+          label: "Do you work on an hourly basis?",
+          response:
+            "Yes! My hourly rate varies upon your project's structure and but I also offer fixed-price contracts for larger projects. Let me know what works best for you!",
+        },
+      ],
+    },
+    {
+      label: "Portfolio & Past Work",
+      response:
+        "Abhiket has worked on multiple projects ranging from web applications to full-scale platforms.",
+      nextOptions: [
+        {
+          label: "Can I see your previous work?",
+          response:
+            "Of course! You can check out my portfolio here: [https://abhiket49-portfolio.netlify.app/]. I've worked on web apps, and custom software solutions.",
+        },
+        {
+          label: "Have you worked with any startups?",
+          response:
+            "Yes! I've collaborated with multiple startups to build MVPs, improve UI/UX, and scale their web & mobile applications. Let me know if you need a reference or case study!",
+        },
+      ],
+    },
+    {
+      label: "Contact & Next Steps",
+      response:
+        "You can easily reach out to Abhiket via email or schedule a call to discuss your project.",
+      nextOptions: [
+        {
+          label: "How can I contact you?",
+          response:
+            "You can reach out via email at [abhiket29@gmail.com] or send a direct message on LinkedIn: [https://www.linkedin.com/in/abhiket-kumar-28964b238/].",
+        },
+        {
+          label: "Can we schedule a call?",
+          response: "Sure! Click the button below to schedule a meeting.",
+          calendlyLink: calendlyUrl
+        },
+      ],
+    },
   ];
 
   const handleSubmit = async () => {
