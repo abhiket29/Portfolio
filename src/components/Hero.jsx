@@ -16,7 +16,7 @@ const container = (delay) => ({
 const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35 px-8 md:px-[8rem]">
-      <MarqueeText/>
+      <MarqueeText />
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col lg:mt-8 items-center lg:items-start">
@@ -46,7 +46,11 @@ const Hero = () => {
             </motion.p>
           </div>
           {/* <Link to="/contact">
-            <button className="font-bold h-12 w-40 rounded-lg bg-gradient-to-r from-pink-500 via-slate-700 to-purple-700">
+            <button
+              className="font-bold h-12 w-40 rounded-lg bg-gradient-to-r from-pink-500 via-slate-700 to-purple-700 
+                     hover:from-purple-500 hover:to-pink-600 
+                     transition-transform duration-300 transform hover:scale-95 focus:outline-none"
+            >
               Let&apos;s Connect
             </button>
           </Link> */}
