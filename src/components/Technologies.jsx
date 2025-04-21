@@ -1,9 +1,10 @@
-import { RiReactjsLine } from "react-icons/ri";
+import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { TfiHtml5 } from "react-icons/tfi";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaFlutter } from "react-icons/fa6";
 import { RiJavascriptLine } from "react-icons/ri";
 import { motion } from "framer-motion";
+import { SiRedux } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -52,6 +53,14 @@ const Technologies = () => {
           <FaCss3Alt className="text-7xl" />
         </motion.div>
         <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiTailwindCssFill className="text-7xl" />
+        </motion.div>
+        <motion.div
           variants={iconVariants(6)}
           initial="initial"
           animate="animate"
@@ -73,7 +82,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaFlutter className="text-7xl" />
+          <SiRedux className="text-7xl" />
         </motion.div>
       </motion.div>
     </div>

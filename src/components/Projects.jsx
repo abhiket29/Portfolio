@@ -30,7 +30,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="border-b border-neutral-900 py-16 px-8 md:px-[9rem] lg:px-[15rem]"
+      className="border-b border-neutral-900 py-16 px-8 md:px-[9rem] lg:px-[20rem]"
     >
       <motion.div
         whileInView={{ opacity: 1, y: 0 }}
@@ -67,6 +67,7 @@ const Projects = () => {
         </motion.button>
 
         <Swiper
+          autoplay={true}
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}

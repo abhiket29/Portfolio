@@ -3,13 +3,11 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a dedicated and results-driven Software Developer with a strong focus on building scalable, high-performance web and mobile applications. With two years of hands-on experience, I have developed expertise in front-end technologies like React.js and cross-platform application development using Flutter. I am passionate about creating innovative solutions that enhance user experience and drive business growth. Continuously eager to learn and adapt, I thrive in dynamic environments that challenge me to push the boundaries of technology.`;
+export const HERO_CONTENT = `I am a dedicated and results-driven Software Developer with over two years of experience in building scalable, high-performance web applications. Specializing in front-end development with React.js and Redux Toolkit, I am committed to delivering seamless, user-centric digital experiences.
 
-export const ABOUT_TEXT = `I am a skilled and adaptable software developer with two years of experience in building efficient, user-centric web and mobile applications. Proficient in React and Flutter, I have a strong foundation in front-end development and a keen eye for creating seamless user experiences.
+Passionate about innovation, I focus on crafting solutions that enhance user engagement and drive business growth. With a continuous learning mindset, I thrive in dynamic environments that challenge me to push boundaries and stay ahead of front-end development trends.`;
 
-My journey in software development began with a deep curiosity about technology, which has evolved into a passion for solving complex problems and delivering high-quality, scalable solutions. I thrive in collaborative environments, where I continuously learn, adapt, and innovate to stay ahead of industry trends.
-
-Beyond coding, I am actively involved in exploring emerging technologies, contributing to open-source projects, and staying engaged with the developer community.`;
+export const ABOUT_TEXT = `A dedicated front-end web developer with two years of experience specializing in React.js and Redux Toolkit. Skilled in building responsive, user-centric applications with clean, scalable code and efficient state management. Passionate about creating seamless user experiences, solving UI challenges, and staying updated with the latest front-end trends. Actively involved in the developer community and open-source contributions to drive continuous growth and innovation.`;
 
 export const EXPERIENCES = [
   {
@@ -17,7 +15,7 @@ export const EXPERIENCES = [
     role: "Software Developer",
     company: "TAAB Solutions, Gurugram",
     description: `Designed and developed user interfaces for web applications React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "JavaScript", "React.js"],
+    technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js", "Redux Toolkit"],
     // description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     // technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
@@ -42,32 +40,48 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Developed a fully functional e-commerce website that includes key features such as product listing, detailed product pages, a shopping cart with real-time updates, and secure user authentication. The platform allows users to browse products, add items to their cart, and proceed through a streamlined checkout process. The authentication system ensures secure login and registration, enhancing user trust and protecting sensitive data. The application is designed with a responsive layout for optimal performance across all devices, providing a seamless shopping experience.",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubLink: "https://github.com/abhiket29/E-commerce"
+  },
+  {
+    title: "TAAB Website",
+    // image: project1,
+    description:
+      "Built a fully responsive, cross-browser compatible website using React.js and Tailwind CSS, ensuring a clean and semantic HTML5 structure to enhance SEO and accessibility. I integrated JavaScript logic to add dynamic interactivity, including modals, sliders, and navigation toggles, resulting in a smooth and engaging user experience.",
+    technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js"],
+    // githubLink: "https://github.com/abhiket29/E-commerce"
+  },
+  {
+    title: "GameBadlo CRM",
+    // image: project1,
+    description:
+      "Developed a modular CRM system using React.js with Redux Toolkit for efficient state and API management. The system included dynamic forms and dashboards for creating and managing competitions, game cards, and advertisements, all integrated using Redux Toolkit's createAsyncThunk for seamless asynchronous operations. Additionally, I implemented role-based routing and protected routes for Admin and User roles to ensure secure and appropriate access to different modules.",
+    technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js", "Redux Toolkit"],
+    // githubLink: "https://github.com/abhiket29/E-commerce"
   },
   {
     title: "Todo List App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
+      "Built an application for managing tasks and projects, designed to streamline team collaboration and productivity. The app includes features such as task creation, assignment to team members, setting deadlines, and real-time progress tracking. Users can organize projects into categories, prioritize tasks, and monitor completion status through interactive dashboards. The interface is user-friendly and responsive, ensuring smooth usage across all devices. This solution helps teams stay organized, meet deadlines, and maintain clear visibility over project timelines and responsibilities.",
+    technologies: ["HTML", "CSS", "JavaScript", "React.js"],
     githubLink: "https://github.com/abhiket29/ToDo-List"
   },
   {
     title: "Portfolio",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "TailwindCSS", "JavaScript", "React"],
+      "Developed a personal portfolio website to showcase my projects, technical skills, and contact information in a clean and professional manner. The website is fully responsive and optimized for performance, providing a smooth experience across devices and browsers. It features detailed sections for individual projects with descriptions and live links, an overview of my skill set, and an integrated contact form for easy communication. Designed with modern web technologies, the portfolio reflects my passion for development and serves as a central hub for potential clients, collaborators, and employers to learn more about my work..",
+    technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js"],
     githubLink: "https://github.com/abhiket29/Portfolio"
   },
   {
     title: "Pokémon Website",
     image: project4,
     description:
-      "Developed a responsive Pokémon-themed website showcasing Pokémon details, including search and filtering functionality.",
-    technologies: ["HTML", "CSS", "API Integration", "React"],
+      "Developed a responsive Pokémon-themed website that showcases detailed information about various Pokémon, creating an engaging and interactive user experience. The application features a search bar and filtering options, allowing users to easily find Pokémon based on name, type, or other attributes. Built with a clean and intuitive UI, the website adapts seamlessly across devices and browsers. This project highlights my ability to work with APIs, manage dynamic data rendering, and create user-friendly interfaces centered around a fun and nostalgic theme.",
+    technologies: ["HTML", "CSS", "API Integration", "React.js"],
     githubLink: "https://github.com/abhiket29/Pokemon-Website"
   },
 ];
