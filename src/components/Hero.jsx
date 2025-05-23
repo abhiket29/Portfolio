@@ -1,60 +1,71 @@
+import { useEffect, useState } from "react";
 import { HERO_CONTENT } from "../constants";
 import profilepic from "../assets/profile1.jpg";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import MarqueeText from "./Marquee";
 
-const container = (delay) => ({
-  hidden: { x: -100, opacity: 0 },
-  visible: {
-    x: 0,
-    opacity: 1,
-    transition: { duration: 0.5, delay: delay },
-  },
-});
-
 const Hero = () => {
+  const fullText = "Software Developer";
+  const [displayedText, setDisplayedText] = useState("");
+  const [index, setIndex] = useState(0);
+  const [deleting, setDeleting] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(
+      () => {
+        if (!deleting) {
+          setDisplayedText(fullText.slice(0, index + 1));
+          setIndex((prev) => prev + 1);
+          if (index === fullText.length) {
+            setDeleting(true);
+          }
+        } else {
+          setDisplayedText(fullText.slice(0, index - 1));
+          setIndex((prev) => prev - 1);
+          if (index === 0) {
+            setDeleting(false);
+          }
+        }
+      },
+      deleting ? 70 : 120
+    );
+
+    return () => clearTimeout(timeout);
+  }, [index, deleting]);
+
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35 px-8 md:px-[8rem]">
       <MarqueeText />
       <div className="flex flex-wrap">
+        {/* LEFT */}
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col lg:mt-8 items-center lg:items-start">
             <motion.h1
-              variants={container(0)}
-              initial="hidden"
-              animate="visible"
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5 }}
               className="py-10 lg:pb-10 text-6xl font-thin tracking-tight lg:mt-4 lg:text-7xl"
             >
               Abhiket Roy
             </motion.h1>
-            <motion.span
-              variants={container(0.5)}
-              initial="hidden"
-              animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
-            >
-              Software Developer
-            </motion.span>
+
+            <div className="text-3xl font-semibold tracking-tight bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent h-[3rem]">
+              {displayedText}
+              <span className="animate-pulse">|</span>
+            </div>
+
             <motion.p
-              variants={container(1)}
-              initial="hidden"
-              animate="visible"
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 1 }}
               className="my-2 max-w-xl py-6 font-light tracking-tighter lg:text-xl"
             >
               {HERO_CONTENT}
             </motion.p>
           </div>
-          {/* <Link to="/contact">
-            <button
-              className="font-bold h-12 w-40 rounded-lg bg-gradient-to-r from-pink-500 via-slate-700 to-purple-700 
-                     hover:from-purple-500 hover:to-pink-600 
-                     transition-transform duration-300 transform hover:scale-95 focus:outline-none"
-            >
-              Let&apos;s Connect
-            </button>
-          </Link> */}
         </div>
+
+        {/* RIGHT */}
         <div className="w-full lg:w-1/2 lg:p-8 mt-9">
           <div className="flex justify-center">
             <motion.img
@@ -62,7 +73,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilepic}
-              alt=""
+              alt="Profile"
               className="rounded-xl"
             />
           </div>

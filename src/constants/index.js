@@ -3,11 +3,11 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a dedicated and results-driven Software Developer with over two years of experience in building scalable, high-performance web applications. Specializing in front-end development with React.js and Redux Toolkit, I am committed to delivering seamless, user-centric digital experiences.
+export const HERO_CONTENT = `I am a dedicated and results-driven Software Developer with over two years of experience in building scalable, high-performance web applications. Specializing in front-end development with React.js, Next.js and Redux Toolkit, I am committed to delivering seamless, user-centric digital experiences.
 
 Passionate about innovation, I focus on crafting solutions that enhance user engagement and drive business growth. With a continuous learning mindset, I thrive in dynamic environments that challenge me to push boundaries and stay ahead of front-end development trends.`;
 
-export const ABOUT_TEXT = `A dedicated front-end web developer with two years of experience specializing in React.js and Redux Toolkit. Skilled in building responsive, user-centric applications with clean, scalable code and efficient state management. Passionate about creating seamless user experiences, solving UI challenges, and staying updated with the latest front-end trends. Actively involved in the developer community and open-source contributions to drive continuous growth and innovation.`;
+export const ABOUT_TEXT = `A dedicated front-end web developer with two years of experience specializing in React.js, Next.js and Redux Toolkit. Skilled in building responsive, user-centric applications with clean, scalable code and efficient state management. Passionate about creating seamless user experiences, solving UI challenges, and staying updated with the latest front-end trends. Actively involved in the developer community and open-source contributions to drive continuous growth and innovation.`;
 
 export const EXPERIENCES = [
   {
