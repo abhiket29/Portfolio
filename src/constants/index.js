@@ -2,6 +2,9 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg"
+import project7 from "../assets/projects/project-7.jpg"
 
 export const HERO_CONTENT = `I am a dedicated and results-driven Software Developer with over two years of experience in building scalable, high-performance web applications. Specializing in front-end development with React.js, Next.js and Redux Toolkit, I am committed to delivering seamless, user-centric digital experiences.
 
@@ -46,15 +49,15 @@ export const PROJECTS = [
   },
   {
     title: "TAAB Website",
-    // image: project1,
+    image: project5,
     description:
       "Built a fully responsive, cross-browser compatible website using React.js and Tailwind CSS, ensuring a clean and semantic HTML5 structure to enhance SEO and accessibility. I integrated JavaScript logic to add dynamic interactivity, including modals, sliders, and navigation toggles, resulting in a smooth and engaging user experience.",
-    technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js"],
+    technologies: ["HTML", "TailwindCSS", "JavaScript", "Next.js"],
     // githubLink: "https://github.com/abhiket29/E-commerce"
   },
   {
     title: "GameBadlo CRM",
-    // image: project1,
+    image: project6,
     description:
       "Developed a modular CRM system using React.js with Redux Toolkit for efficient state and API management. The system included dynamic forms and dashboards for creating and managing competitions, game cards, and advertisements, all integrated using Redux Toolkit's createAsyncThunk for seamless asynchronous operations. Additionally, I implemented role-based routing and protected routes for Admin and User roles to ensure secure and appropriate access to different modules.",
     technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js", "Redux Toolkit"],
@@ -81,7 +84,15 @@ export const PROJECTS = [
     image: project4,
     description:
       "Developed a responsive Pokémon-themed website that showcases detailed information about various Pokémon, creating an engaging and interactive user experience. The application features a search bar and filtering options, allowing users to easily find Pokémon based on name, type, or other attributes. Built with a clean and intuitive UI, the website adapts seamlessly across devices and browsers. This project highlights my ability to work with APIs, manage dynamic data rendering, and create user-friendly interfaces centered around a fun and nostalgic theme.",
-    technologies: ["HTML", "CSS", "API Integration", "React.js"],
+    technologies: ["HTML", "CSS", "React.js"],
+    githubLink: "https://github.com/abhiket29/Pokemon-Website"
+  },
+  {
+    title: "GameBadlo Website",
+    image: project7,
+    description:
+      "Designed and developed a fully responsive official website for GameBadlo, a company offering a free-to-play fantasy cricket prediction game. The site introduces users to the app’s core features, game mechanics, and rewards system through a clean, responsive, and engaging interface. Built to attract and convert cricket fans, the website provides smooth navigation, promotional banners, and direct links to download the app. This project demonstrates my ability to craft high-impact, brand-driven web experiences that bridge user interest with product engagement.",
+    technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js"],
     githubLink: "https://github.com/abhiket29/Pokemon-Website"
   },
 ];
