@@ -66,15 +66,26 @@ const Hero = () => {
         </div>
 
         {/* RIGHT */}
-        <div className="w-full lg:w-1/2 lg:p-8 mt-9">
-          <div className="flex justify-center">
+        <div className="w-full lg:w-1/2 lg:p-8 mt-1">
+          <div className="relative flex justify-center">
+            {/* Blurred Background */}
+            <motion.img
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 0.6 }}
+              transition={{ duration: 1, delay: 1.2 }}
+              src={profilepic}
+              alt="Profile Blur"
+              className="absolute top-0 blur-sm scale-110 rounded-xl z-0"
+            />
+
+            {/* Sharp Foreground */}
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilepic}
               alt="Profile"
-              className="rounded-xl"
+              className="relative rounded-xl z-10"
             />
           </div>
         </div>
