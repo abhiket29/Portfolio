@@ -1,7 +1,6 @@
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { TfiHtml5 } from "react-icons/tfi";
 import { FaCss3Alt } from "react-icons/fa";
-import { FaFlutter } from "react-icons/fa6";
 import { RiJavascriptLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { SiRedux } from "react-icons/si";

@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/abhiket-about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 

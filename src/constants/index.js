@@ -6,29 +6,29 @@ import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg"
 import project7 from "../assets/projects/project-7.jpg"
 
-export const HERO_CONTENT = `I am a dedicated and results-driven Software Developer with over two years of experience in building scalable, high-performance web applications. Specializing in front-end development with React.js, Next.js and Redux Toolkit, I am committed to delivering seamless, user-centric digital experiences.
+export const HERO_CONTENT = `I am a dedicated and results-driven Software Developer with over 2.5 years of experience in building scalable, high-performance web applications. Specializing in front-end development with React.js, Next.js and Redux Toolkit, I am committed to delivering seamless, user-centric digital experiences.
 
 Passionate about innovation, I focus on crafting solutions that enhance user engagement and drive business growth. With a continuous learning mindset, I thrive in dynamic environments that challenge me to push boundaries and stay ahead of front-end development trends.`;
 
-export const ABOUT_TEXT = `A dedicated front-end web developer with two years of experience specializing in React.js, Next.js and Redux Toolkit. Skilled in building responsive, user-centric applications with clean, scalable code and efficient state management. Passionate about creating seamless user experiences, solving UI challenges, and staying updated with the latest front-end trends. Actively involved in the developer community and open-source contributions to drive continuous growth and innovation.`;
+export const ABOUT_TEXT = `A dedicated front-end web developer with 2.5 years of experience specializing in React.js, Next.js, React native and Redux Toolkit. Skilled in building responsive, user-centric applications with clean, scalable code and efficient state management. Passionate about creating seamless user experiences, solving UI challenges, and staying updated with the latest front-end trends. Actively involved in the developer community and open-source contributions to drive continuous growth and innovation.`;
 
 export const EXPERIENCES = [
   {
-    year: "May 2024 - Present",
+    year: "Oct 2023 - Present",
     role: "Software Developer",
     company: "TAAB Solutions, Gurugram",
-    description: `Designed and developed user interfaces for web applications React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js", "Redux Toolkit"],
+    description: `Designed and developed dynamic, user-centric interfaces using React.js and Next.js, focusing on performance, scalability, and responsive design. Collaborated closely with backend teams to seamlessly integrate RESTful and Node.js APIs. Optimized frontend architecture for speed and efficiency across devices and browsers. Recently expanded into React Native to build high-quality cross-platform mobile applications, emphasizing smooth UI transitions and native performance.`,
+    technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js", "Next.js", "React Native", "Redux Toolkit"],
     // description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     // technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
-  {
-    year: "Oct 2023 - April 2024",
-    role: "QA Engineer",
-    company: "TAAB Solutions, Gurugram",
-    description: `Performed end-to-end manual testing, including functional, regression, and system testing, ensuring software met quality standards.`,
-    technologies: ["Jira", "JMeter", "Manual Testing"],
-  },
+  // {
+  //   year: "Oct 2023 - April 2024",
+  //   role: "QA Engineer",
+  //   company: "TAAB Solutions, Gurugram",
+  //   description: `Performed end-to-end manual testing, including functional, regression, and system testing, ensuring software met quality standards.`,
+  //   technologies: ["Jira", "JMeter", "Manual Testing"],
+  // },
   {
     year: "Dec 2022 - Sep 2023",
     role: "QA Engineer",

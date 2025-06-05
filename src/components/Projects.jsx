@@ -294,7 +294,7 @@ const Projects = () => {
   );
 
   return (
-    <div id="projects" className=" lg:py-10 px-4 sm:px-6 lg:px-8">
+    <div id="projects" className=" lg:py-10 px-8 sm:px-6 lg:px-[8rem]">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.h1
@@ -309,21 +309,6 @@ const Projects = () => {
             represents a unique challenge.
           </p>
         </motion.h1>
-        {/* <motion.div
-          initial={{ opacity: 0, y: -30 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-12"
-        >
-          <h1 className="text-4xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">
-            Featured Projects
-          </h1>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Swipe through my latest work and creative solutions. Each project
-            represents a unique challenge.
-          </p>
-        </motion.div> */}
-
-        {/* Controls */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

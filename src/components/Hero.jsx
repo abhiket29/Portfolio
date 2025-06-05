@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { HERO_CONTENT } from "../constants";
-import profilepic from "../assets/profile1.jpg";
+import profilepic from "../assets/abhiket-profile(2).jpg";
 import { motion } from "framer-motion";
 import MarqueeText from "./Marquee";
 
