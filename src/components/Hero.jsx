@@ -66,7 +66,7 @@ const Hero = () => {
         </div>
 
         {/* RIGHT */}
-        <div className="w-full lg:w-1/2 lg:p-8 mt-1">
+        <div className="w-full lg:w-1/2 lg:p-8 md:mt-5">
           <div className="relative flex justify-center">
             {/* Blurred Background */}
             <motion.img

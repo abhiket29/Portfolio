@@ -209,12 +209,12 @@ const Projects = () => {
                 </p>
               </div>
 
-              <div className="flex items-center space-x-1 text-yellow-400">
+              {/* <div className="flex items-center space-x-1 text-yellow-400">
                 <Star size={16} fill="currentColor" />
                 <span className="text-sm font-medium">
                   {project.rating || "4.8"}
                 </span>
-              </div>
+              </div> */}
             </div>
 
             {/* Description */}
@@ -264,11 +264,11 @@ const Projects = () => {
               whileHover={{ scale: 1.02, y: -2 }}
               whileTap={{ scale: 0.98 }}
             >
-              <Github
+              {/* <Github
                 size={18}
                 className="group-hover/btn:rotate-12 transition-transform"
-              />
-              <span>Code</span>
+              /> */}
+              <span>Live Demo</span>
             </motion.a>
 
             {project.liveLink && (

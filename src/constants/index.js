@@ -51,7 +51,7 @@ export const PROJECTS = [
     title: "TAAB Website",
     image: project5,
     description:
-      "Built a fully responsive, cross-browser compatible website using React.js and Tailwind CSS, ensuring a clean and semantic HTML5 structure to enhance SEO and accessibility. I integrated JavaScript logic to add dynamic interactivity, including modals, sliders, and navigation toggles, resulting in a smooth and engaging user experience.",
+      "Built a fully responsive, cross-browser compatible website using Next.js and Tailwind CSS, ensuring a clean and semantic HTML5 structure to enhance SEO and accessibility. I integrated JavaScript logic to add dynamic interactivity, including modals, sliders, and navigation toggles, resulting in a smooth and engaging user experience.",
     technologies: ["HTML", "TailwindCSS", "JavaScript", "Next.js"],
     // githubLink: "https://github.com/abhiket29/E-commerce"
   },
