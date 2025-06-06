@@ -53,7 +53,7 @@ export const PROJECTS = [
     description:
       "Built a fully responsive, cross-browser compatible website using Next.js and Tailwind CSS, ensuring a clean and semantic HTML5 structure to enhance SEO and accessibility. I integrated JavaScript logic to add dynamic interactivity, including modals, sliders, and navigation toggles, resulting in a smooth and engaging user experience.",
     technologies: ["HTML", "TailwindCSS", "JavaScript", "Next.js"],
-    // githubLink: "https://github.com/abhiket29/E-commerce"
+    githubLink: "https://taabsolutions.com"
   },
   {
     title: "GameBadlo CRM",
@@ -61,7 +61,7 @@ export const PROJECTS = [
     description:
       "Developed a modular CRM system using React.js with Redux Toolkit for efficient state and API management. The system included dynamic forms and dashboards for creating and managing competitions, game cards, and advertisements, all integrated using Redux Toolkit's createAsyncThunk for seamless asynchronous operations. Additionally, I implemented role-based routing and protected routes for Admin and User roles to ensure secure and appropriate access to different modules.",
     technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js", "Redux Toolkit"],
-    // githubLink: "https://github.com/abhiket29/E-commerce"
+    githubLink: "https://crm-panel.gamebadlo.com"
   },
   {
     title: "Todo List App",
@@ -77,7 +77,7 @@ export const PROJECTS = [
     description:
       "Developed a personal portfolio website to showcase my projects, technical skills, and contact information in a clean and professional manner. The website is fully responsive and optimized for performance, providing a smooth experience across devices and browsers. It features detailed sections for individual projects with descriptions and live links, an overview of my skill set, and an integrated contact form for easy communication. Designed with modern web technologies, the portfolio reflects my passion for development and serves as a central hub for potential clients, collaborators, and employers to learn more about my work..",
     technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js"],
-    githubLink: "https://github.com/abhiket29/Portfolio"
+    githubLink: "https://abhiket49-portfolio.netlify.app"
   },
   {
     title: "Pokémon Website",
@@ -93,7 +93,7 @@ export const PROJECTS = [
     description:
       "Designed and developed a fully responsive official website for GameBadlo, a company offering a free-to-play fantasy cricket prediction game. The site introduces users to the app’s core features, game mechanics, and rewards system through a clean, responsive, and engaging interface. Built to attract and convert cricket fans, the website provides smooth navigation, promotional banners, and direct links to download the app. This project demonstrates my ability to craft high-impact, brand-driven web experiences that bridge user interest with product engagement.",
     technologies: ["HTML", "TailwindCSS", "JavaScript", "React.js"],
-    githubLink: "https://github.com/abhiket29/Pokemon-Website"
+    githubLink: "https://gamebadlo.com"
   },
 ];
 
