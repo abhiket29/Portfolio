@@ -1,4 +1,3 @@
-// File: /api/sendSigmaEmail.js
 import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
@@ -42,8 +41,8 @@ export default async function handler(req, res) {
     port: 465,
     secure: true, // Use SSL
     auth: {
-      user: process.env.EMAIL_USER || "priya@taabsolutions.com", // Use environment variable in production
-      pass: process.env.EMAIL_PASS || "xjaofjsiiedivzar", // Use environment variable in production
+      user: process.env.EMAIL_USER || "abhiket29@gmail.com",
+      pass: process.env.EMAIL_PASS || "puio fuxl qsfa boqe",
     },
     tls: {
       rejectUnauthorized: false,
@@ -80,7 +79,7 @@ export default async function handler(req, res) {
       from: `Website Contact Form <${
         process.env.EMAIL_USER || "priya@taabsolutions.com"
       }>`,
-      to: process.env.RECIPIENT_EMAIL || "abhiket29@gmail.com", // Use environment variable in production
+      to: process.env.RECIPIENT_EMAIL || "abhiket29@gmail.com",
       replyTo: email, // Allow direct reply to the sender
       subject: `New Contact Form Submission from ${name}`,
       html: htmlMessage,

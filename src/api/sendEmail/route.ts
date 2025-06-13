@@ -23,8 +23,8 @@ export async function POST(req: any) {
     port: 465,
     secure: true, // Use SSL
     auth: {
-      user: "priya@taabsolutions.com",
-      pass: "xjaofjsiiedivzar",
+      user: "abhiket29@gmail.com",
+      pass: "puio fuxl qsfa boqe",
     },
     tls: {
       rejectUnauthorized: false,
@@ -44,7 +44,7 @@ export async function POST(req: any) {
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Contact Number:</strong> ${countryDialCode} ${contactNumber}</p>
         <p><strong>Message:</strong> ${message}</p>
-        <p><strong>Seeking Solutions:</strong> ${serviceType}</p>
+        // <p><strong>Seeking Solutions:</strong> ${serviceType}</p>
       `,
     });
 
