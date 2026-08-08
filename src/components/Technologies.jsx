@@ -70,7 +70,7 @@ const Technologies = () => {
           <RiJavascriptLine className="text-7xl" />
         </motion.div>
         <motion.div
-          variants={iconVariants(4)}
+          variants={iconVariants(7)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -78,7 +78,7 @@ const Technologies = () => {
           <RiReactjsLine className="text-7xl" />
         </motion.div>
         <motion.div
-          variants={iconVariants(4)}
+          variants={iconVariants(8)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -86,7 +86,7 @@ const Technologies = () => {
           <SiRedux className="text-7xl" />
         </motion.div>
         <motion.div
-          variants={iconVariants(4)}
+          variants={iconVariants(9)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -94,7 +94,7 @@ const Technologies = () => {
           <GrMysql className="text-7xl" />
         </motion.div>
         <motion.div
-          variants={iconVariants(4)}
+          variants={iconVariants(10)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
