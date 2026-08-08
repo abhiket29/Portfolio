@@ -88,15 +88,15 @@ export default function Footer() {
             >
               <FaLinkedin className="w-5 h-5 hover:text-white transition-colors duration-200" />
             </a>
+            <a href="mailto:abhiket29@gmail.com">
+              <Mail className="w-5 h-5 hover:text-white transition-colors duration-200" />
+            </a>
             <a
               href="https://www.instagram.com/_.abhiiket.krr.49__/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram className="w-5 h-5 hover:text-white transition-colors duration-200" />
-            </a>
-            <a href="mailto:abhiket29@gmail.com">
-              <Mail className="w-5 h-5 hover:text-white transition-colors duration-200" />
             </a>
           </div>
         </div>
@@ -172,7 +172,7 @@ export default function Footer() {
         </div>
       )}
 
-      <style jsx>{`
+      <style>{`
         @keyframes modalEnter {
           from {
             opacity: 0;

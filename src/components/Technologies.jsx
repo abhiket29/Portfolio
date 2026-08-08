@@ -4,6 +4,8 @@ import { FaCss3Alt } from "react-icons/fa";
 import { RiJavascriptLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { SiRedux } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
+import { SiPostman } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -82,6 +84,22 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiRedux className="text-7xl" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <GrMysql className="text-7xl" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPostman className="text-7xl" />
         </motion.div>
       </motion.div>
     </div>

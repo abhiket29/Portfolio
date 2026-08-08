@@ -8,11 +8,13 @@ import project7 from "../assets/projects/project-7.jpg";
 import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
 
-export const HERO_CONTENT = `I am a dedicated and results-driven Software Developer with over 2.5 years of experience in building scalable, high-performance web applications. Specializing in front-end development with React.js, Next.js and Redux Toolkit, I am committed to delivering seamless, user-centric digital experiences.
+export const HERO_CONTENT = `I'm a results-driven Software Developer with 2.5+ years of experience building scalable, high-performance web applications. Specializing in React.js, Next.js, and Redux Toolkit, I craft seamless, user-centric digital experiences that merge clean code with thoughtful design.
 
-Passionate about innovation, I focus on crafting solutions that enhance user engagement and drive business growth. With a continuous learning mindset, I thrive in dynamic environments that challenge me to push boundaries and stay ahead of front-end development trends.`;
+Driven by curiosity and a passion for innovation, I focus on building solutions that boost user engagement and deliver real business impact. I thrive in fast-paced environments where I can push boundaries, solve complex problems, and stay ahead of the ever-evolving front-end landscape.`;
 
-export const ABOUT_TEXT = `A dedicated front-end web developer with 2.5 years of experience specializing in React.js, Next.js, React native and Redux Toolkit. Skilled in building responsive, user-centric applications with clean, scalable code and efficient state management. Passionate about creating seamless user experiences, solving UI challenges, and staying updated with the latest front-end trends. Actively involved in the developer community and open-source contributions to drive continuous growth and innovation.`;
+export const ABOUT_TEXT = `I'm a front-end web developer with 2.5+ years of experience specializing in React.js, Next.js, React Native, and Redux Toolkit. I build responsive, user-centric applications with clean, scalable code and efficient state management, turning complex requirements into intuitive, performant interfaces.
+
+I'm passionate about crafting seamless user experiences, solving challenging UI problems, and staying current with the latest front-end trends and best practices. Beyond my core work, I'm actively involved in the developer community — contributing to open-source projects and continuously pushing my own growth as an engineer.`;
 
 export const EXPERIENCES = [
   {
@@ -44,12 +46,13 @@ export const EXPERIENCES = [
     role: "QA Engineer",
     company: "RV Online Gaming Pvt. Ltd, Gurugram",
     description: `Executed performance tests using JMeter or LoadRunner to identify bottlenecks and improve system scalability.Worked closely with cross-functional teams, including developers and product managers to ensure alignment on requirements and quality standards.`,
-    technologies: ["Jira", "JMeter", "Manual Testing"],
+    technologies: ["Jira", "JMeter", "Postman", "Manual Testing"],
   },
 ];
 
 export const PROJECTS = [
   {
+    id:1,
     title: "Nex Predictor",
     image: project9,
     description:
@@ -59,6 +62,7 @@ export const PROJECTS = [
     liveLink: "https://nex-predictor.gamebadlo.com/",
   },
   {
+    id:2,
     title: "TAAB Website",
     image: project5,
     description:
@@ -67,6 +71,7 @@ export const PROJECTS = [
     liveLink: "https://taabsolutions.com",
   },
   {
+    id:3,
     title: "GameBadlo CRM",
     image: project6,
     description:
@@ -76,6 +81,7 @@ export const PROJECTS = [
     liveLink: "https://crm-panel.gamebadlo.com",
   },
   {
+    id:4,
     title: "AI Media Studio",
     image: project8,
     description:
@@ -85,6 +91,7 @@ export const PROJECTS = [
     liveLink: "https://ai-media-studio49.vercel.app/",
   },
   {
+    id:5,
     title: "E-Commerce Website",
     image: project1,
     description:
@@ -93,6 +100,7 @@ export const PROJECTS = [
     githubLink: "https://github.com/abhiket29/E-commerce",
   },
   {
+    id:6,
     title: "Portfolio",
     image: project3,
     description:
@@ -102,6 +110,7 @@ export const PROJECTS = [
     liveLink: "https://abhiket49-portfolio.netlify.app",
   },
   {
+    id:7,
     title: "Pokémon Website",
     image: project4,
     description:
@@ -111,6 +120,7 @@ export const PROJECTS = [
     liveLink: "https://pokemon49.netlify.app/",
   },
   {
+    id:8,
     title: "GameBadlo Website",
     image: project7,
     description:

@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { X, Send, MessageSquare, Minus, Calendar } from "lucide-react";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+// import "react-toastify/dist/ReactToastify.css";
 import { motion } from "framer-motion";
 import React from "react";
 
@@ -16,7 +16,7 @@ export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
-  const [messages, setMessages] = useState([
+  const [messages, setMessages] = useState<Message[]>([
     { role: "bot", content: "Please enter your email to proceed:" },
   ]);
   const [input, setInput] = useState("");
@@ -27,7 +27,7 @@ export default function Chatbot() {
   const [showMessageInput, setShowMessageInput] = useState(false);
   const chatRef = useRef<HTMLDivElement>(null);
   const latestMessageRef = useRef<HTMLDivElement>(null);
-  const reappearTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const reappearTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Calendly URL - you can change this to your actual Calendly link
   const calendlyUrl = "https://calendly.com/abhiket29";
